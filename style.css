@@ -1,0 +1,56 @@
+body {
+    font-family: arial;
+    color: #333;
+
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main form {
+    width: 40%;
+}
+
+main article {
+    width: 45%;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+
+}
+
+input,
+textarea,
+#formContainer button {
+    display: block;
+    margin-bottom: .5em;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+
+}
+
+#card {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
